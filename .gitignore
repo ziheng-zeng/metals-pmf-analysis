@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.python-version
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.Zone.Identifier
+
+# Raw data and generated analysis outputs
+*.csv
+*.tsv
+*.txt
+*.xls
+*.xlsx
+*.dat
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+
+# Project output folders
+baseline_stats_all_metals/
+coke_plume_flags/
+exportToHTML/
+fireworks_timeseries/
+metals_48h_plots/
+metals_48h_plots_selected/
+outputs/
+path/
+plume_screening_all_metals/
+pmf_factor_number_comparisons/
+pmf_factor_number_comparisons_timeaware/
+pmf_monthly_factor_decision_tables/
+pmf_outputs/
+pmf_outputs_merged/
+pmf_outputs_selected_tmp/
+pmf_output_summary_*/
+pmf_ready/
+processed data results/
+qa_month_4pm_windows/
+Seasonal_Boxplots/
+weird_peaks_plots/
+Xact_MDL_QA_prePMF/
+Xact_uncertainty_QA_prePMF/
+
+# Keep selected lightweight project files trackable if needed.
+!README.md
+!requirements.txt
+!*.py
+!pmf_full_6f_time_analysis_notebook.ipynb
